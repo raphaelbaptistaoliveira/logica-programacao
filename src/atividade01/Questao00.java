@@ -48,6 +48,6 @@ public class Questao00 {
             qtCopas++;
             listaCopas += "2002";
         }
-        System.out.println("A copas que eu vi: anos"+ listaCopas + "(" + qtCopas + ").");
+        System.out.println("A copas que eu vi: "+ listaCopas +" (" + qtCopas + ").");
     }
 }
