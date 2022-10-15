@@ -1,0 +1,16 @@
+package atividade01;
+
+import java.util.Scanner;
+
+public class Questão06 {
+    public static void main(String[] args) {
+        Scanner ler = new Scanner(System.in);
+        System.out.println("Informar o valor da conta: ");
+        float valorConta = ler.nextFloat();
+        System.out.println("Por quantas pessoas vai dividir a conta?: ");
+        int divisaoConta = ler.nextInt();
+        float valorPessoa = (valorConta / divisaoConta);
+        System.out.println("O valor que cada pessoa vai pagar é R$ "+valorPessoa+" reais");
+        ler.close();
+    }
+}
