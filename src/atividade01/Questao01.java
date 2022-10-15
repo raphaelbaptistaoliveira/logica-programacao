@@ -15,7 +15,7 @@ public class Questao01 {
 
         if (media >= 7){
             System.out.println("O aluno foi Aprovado");
-        }else{
+        }else if (media < 7){
             System.out.println("O aluno foi Reprovado");
         }
             
