@@ -10,18 +10,15 @@ public class Questao01 {
         nota1 = ler.nextFloat();
         System.out.println("Digite a segunda nota do aluno: ");
         nota2 = ler.nextFloat();
-
         media = (nota1 + nota2) /2;
+        System.out.println("Média Final: "+media);
 
         if (media >= 7){
             System.out.println("O aluno foi Aprovado");
-        }else if (media < 7){
+        }else{
             System.out.println("O aluno foi Reprovado");
         }
             
         ler.close();
-        System.out.println("Primeira nota: "+nota1);
-        System.out.println("Segunda nota: "+nota2);
-        System.out.println("A média final do aluno e: "+media);
     }
 }

@@ -17,5 +17,6 @@ public class Questao02 {
         System.out.println("O número digitado foi: "+num);
         System.out.println("O número anterior é: "+anterior);
         System.out.println("O número posterior é: "+proximo); 
+       
     }
 }
