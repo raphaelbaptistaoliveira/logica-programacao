@@ -15,5 +15,10 @@ public class ExemploLacoRepeticao {
             System.out.print(contar);
             System.out.println(" < dentro do loop do-while");
         } while (contar > 1);
+        // 1-start da variavel; 2-condição da repetição; formar de incremento
+        for(int i = 1; i <= 10; i++){
+            System.out.print(i);
+            System.out.println(" < dentro de loop for");
+        }
     }
 }
