@@ -1,3 +1,5 @@
+package exemplos;
+
 public class ExemploComparacao {
     public static void main(String[] args) {
         int x = 5;

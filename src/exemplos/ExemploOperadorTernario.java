@@ -1,3 +1,5 @@
+package exemplos;
+
 public class ExemploOperadorTernario {
     public static void main(String[] args) {
         int hora = 20;

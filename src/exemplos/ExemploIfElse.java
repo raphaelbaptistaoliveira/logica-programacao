@@ -1,3 +1,5 @@
+package exemplos;
+
 public class ExemploIfElse {
     public static void main(String[] args) {
         boolean x = true;
