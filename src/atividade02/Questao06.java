@@ -6,9 +6,9 @@ public class Questao06 {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
         System.out.println("Digite seu peso no formato KG: ");
-		double peso = entrada.nextDouble();
+		double peso = ler.nextDouble();
 		System.out.println("Digite sua altura em Metros: ");
-		double altura = entrada.nextDouble();
+		double altura = ler.nextDouble();
 		
 		double imc = (altura * altura) /peso;
 		
@@ -25,5 +25,7 @@ public class Questao06 {
 		} else if (imc > 40) {
 			System.out.printf("O IMC e: %.2f está com Obesidade Morbida", imc);
 		}
+
+        ler.close();
     }
 }
