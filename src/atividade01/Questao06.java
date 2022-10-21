@@ -2,7 +2,7 @@ package atividade01;
 
 import java.util.Scanner;
 
-public class Questão06 {
+public class Questao06 {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
         System.out.println("Informar o valor da conta: ");
