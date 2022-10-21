@@ -13,12 +13,24 @@ public class Questao02 {
         System.out.println("Digite o terceiro número inteiro: ");
         num3 = ler.nextInt();
 
-        if (num1 <= num2){
-            if (num1 >= num3){
-                System.out.println(num1+"O maior número digitado foi: " +num2+ " e o menor número digitado foi: "+num3);
-            }
-            
+        int maior;
+        if (num1 >= num2 && num1 >= num3) {
+            maior = num1;
+        } else if (num2 >= num3 && num2 >= num1) {
+            maior = num2;
+        } else {
+            maior = num3;
         }
+        int menor;
+        if (num1 <= num2 && num1 <= num3) {
+            menor = num1;
+        } else if (num2 <= num3 && num2 <= num1) {
+            menor = num2;
+        } else {
+            menor = num3;
+        }
+        System.out.println("O número maior e o:  " + maior);
+        System.out.println("E o número menor e o: " + menor);
          
         ler.close();
     }
