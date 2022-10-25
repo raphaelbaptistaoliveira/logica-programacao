@@ -15,12 +15,13 @@ public class Questao05 {
         int idade4 = ler.nextInt();
         System.out.println("Digite a idade da quinta pessoa: ");
         int idade5 = ler.nextInt();
-        
+
+        int a = 0;
         for (int i=1; i<=5; i++);
         if (idade1+idade2+idade3+idade4+idade5 >= 18) {
-            System.out.println("A quantidade de pessoas que são maiores ou que tem 18 anos são: ");
-        }else if(idade1+idade2+idade3+idade4+idade5 < 18) {
-            System.out.println("A quantidade de pessoas que são menores que 18 anos são:");
+            System.out.println("A quantidade de pessoas que são maiores ou que tem 18 anos são: "+a);
+        }else if (idade1+idade2+idade3+idade4+idade5 < 18) {
+            System.out.println("A quantidade de pessoas que são menores que 18 anos são:"+a);
         } 
         ler.close();
     }
