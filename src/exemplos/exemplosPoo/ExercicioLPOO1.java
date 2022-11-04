@@ -10,5 +10,8 @@ public class ExercicioLPOO1 {
         c1.frear(100);
         c1.frear(150);
         c1.printStatus();
+        
+        c1.getMarca();
+        c1.printStatus();
     }
 }

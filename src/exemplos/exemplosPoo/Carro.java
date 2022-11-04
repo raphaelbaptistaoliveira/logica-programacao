@@ -40,4 +40,16 @@ public class Carro {
     public void printStatus() {
 		System.out.println(toString());
     }
+
+    // método de retorno
+
+    public String getMarca(){
+        return marca;
+    }
+
+    // método de acesso
+
+    public void setMarca(String marca){
+        this.marca = marca;
+    }
 }
